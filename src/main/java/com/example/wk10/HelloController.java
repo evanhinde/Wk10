@@ -10,5 +10,7 @@ public class HelloController {
     @FXML
     protected void onHelloButtonClick() {
         welcomeText.setText("Welcome to JavaFX Application!");
+        ApiResponse apiResponse = ApiUtility.getDataFromFile("apiData.json");
+        System.out.println(apiResponse);
     }
 }
