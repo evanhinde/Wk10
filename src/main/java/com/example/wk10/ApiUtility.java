@@ -51,4 +51,24 @@ public class ApiUtility {
         }
         return getDataFromFile("javaApiFetched.json");
     }
+
+    /*
+    This method will create objects but without storing data to our hard disk
+     */
+    public static ApiResponse getDataFromAPIQuick(String searchName) {
+        searchName = searchName.replaceAll(" ", "%20");
+        String uri = "http://www.omdbapi.com/?apikey=12b8ac5c&s=" + searchName;
+
+        HttpClient httpClient = HttpClient.newHttpClient();
+        HttpRequest httpRequest = HttpRequest.newBuilder().uri(URI.create(uri)).build();
+
+        try {
+            HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
+            Gson gson = new Gson();
+            return gson.fromJson(response.body(), ApiResponse.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
 }
