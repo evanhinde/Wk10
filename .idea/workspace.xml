@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd8cfe2e-4bc4-4b3f-af7d-fa199c265cc4" name="Changes" comment="Push">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/wk10/search-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/img/stock-vector-flat-icon-nothing-here-page-not-found-2269630539.jpg" afterDir="false" />
+    <list default="true" id="dd8cfe2e-4bc4-4b3f-af7d-fa199c265cc4" name="Changes" comment="wk10 finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/ApiUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/ApiUtility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/wk10/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/wk10/search-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/wk10/search-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/img" />
@@ -76,6 +68,8 @@
       <option name="presentableId" value="Default" />
       <updated>1699403157741</updated>
       <workItem from="1699403158900" duration="8498000" />
+      <workItem from="1699411854292" duration="37000" />
+      <workItem from="1700007400588" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="Push">
       <created>1699408069213</created>
@@ -84,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699408069214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wk10 finish">
+      <created>1699411887120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1699411887120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,6 +94,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Push" />
-    <option name="LAST_COMMIT_MESSAGE" value="Push" />
+    <MESSAGE value="wk10 finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="wk10 finish" />
   </component>
 </project>
