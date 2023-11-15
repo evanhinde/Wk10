@@ -1,5 +1,9 @@
-package com.example.wk10;
+package com.example.wk10.Controllers;
 
+import com.example.wk10.Models.Movie;
+import com.example.wk10.Models.ApiResponse;
+import com.example.wk10.Utilities.ApiUtility;
+import com.example.wk10.Utilities.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

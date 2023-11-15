@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd8cfe2e-4bc4-4b3f-af7d-fa199c265cc4" name="Changes" comment="wk11 second scene">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/SceneChanger.java" afterDir="false" />
+    <list default="true" id="dd8cfe2e-4bc4-4b3f-af7d-fa199c265cc4" name="Changes" comment="wk11 scenes connected">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Models/MovieDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Models/Rating.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/MovieDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/MovieDetailsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/ApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Models/ApiResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/ApiUtility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Utilities/ApiUtility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/MovieDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Controllers/MovieDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/SceneChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Utilities/SceneChanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/wk10/SearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/wk10/Controllers/SearchController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/wk10/movie-details-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/wk10/movie-details-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/wk10/search-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/wk10/search-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +78,7 @@
       <updated>1699403157741</updated>
       <workItem from="1699403158900" duration="8498000" />
       <workItem from="1699411854292" duration="37000" />
-      <workItem from="1700007400588" duration="3670000" />
+      <workItem from="1700007400588" duration="4787000" />
     </task>
     <task id="LOCAL-00001" summary="Push">
       <created>1699408069213</created>
@@ -100,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700011049189</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="wk11 scenes connected">
+      <created>1700012657765</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700012657765</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +127,7 @@
     <MESSAGE value="wk10 finish" />
     <MESSAGE value="wk11 update scene" />
     <MESSAGE value="wk11 second scene" />
-    <option name="LAST_COMMIT_MESSAGE" value="wk11 second scene" />
+    <MESSAGE value="wk11 scenes connected" />
+    <option name="LAST_COMMIT_MESSAGE" value="wk11 scenes connected" />
   </component>
 </project>

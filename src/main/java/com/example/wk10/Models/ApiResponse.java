@@ -1,5 +1,6 @@
-package com.example.wk10;
+package com.example.wk10.Models;
 
+import com.example.wk10.Models.Movie;
 import com.google.gson.annotations.SerializedName;
 
 public class ApiResponse {

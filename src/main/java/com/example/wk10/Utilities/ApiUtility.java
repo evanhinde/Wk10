@@ -1,5 +1,6 @@
-package com.example.wk10;
+package com.example.wk10.Utilities;
 
+import com.example.wk10.Models.ApiResponse;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 

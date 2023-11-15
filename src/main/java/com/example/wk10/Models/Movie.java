@@ -1,4 +1,4 @@
-package com.example.wk10;
+package com.example.wk10.Models;
 
 import com.google.gson.annotations.SerializedName;
 

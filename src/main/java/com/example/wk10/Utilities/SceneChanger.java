@@ -1,5 +1,6 @@
-package com.example.wk10;
+package com.example.wk10.Utilities;
 
+import com.example.wk10.Controllers.MovieDetailsController;
 import com.example.wk10.Main;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
