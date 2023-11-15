@@ -1,6 +1,7 @@
 package com.example.wk10.Utilities;
 
 import com.example.wk10.Models.ApiResponse;
+import com.example.wk10.Models.MovieDetail;
 import com.google.gson.Gson;
 import com.google.gson.stream.JsonReader;
 
@@ -67,6 +68,22 @@ public class ApiUtility {
             HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
             Gson gson = new Gson();
             return gson.fromJson(response.body(), ApiResponse.class);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static MovieDetail getMovieDetailsFromAPI(String searchName) {
+        String uri = "http://www.omdbapi.com/?apikey=12b8ac5c&i=" + searchName;
+
+        HttpClient httpClient = HttpClient.newHttpClient();
+        HttpRequest httpRequest = HttpRequest.newBuilder().uri(URI.create(uri)).build();
+
+        try {
+            HttpResponse<String> response = httpClient.send(httpRequest, HttpResponse.BodyHandlers.ofString());
+            Gson gson = new Gson();
+            return gson.fromJson(response.body(), MovieDetail.class);
         } catch (Exception e) {
             e.printStackTrace();
         }
