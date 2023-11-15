@@ -10,6 +10,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
+import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 
@@ -64,8 +65,10 @@ public class SearchController  implements Initializable {
     }
 
     @FXML
-    void getDetailsButton_onClick(ActionEvent event) {
-
+    void getDetailsButton_onClick(ActionEvent event) throws IOException {
+        String selectedID = listView.getSelectionModel().getSelectedItem().getImdbID();
+        System.out.println("Selected Movie ID (From first scene): " + selectedID);
+        SceneChanger.changeScene(event ,"movie-details-view.fxml", "Movie Details", selectedID);
     }
 
 
